@@ -1,4 +1,4 @@
-# Check if styled is used only inside .styled files (styled-in-styled)
+# Check if styled is used only inside .style files (styled-in-styled)
 
 Please describe the origin of the rule here.
 
@@ -9,17 +9,15 @@ This rule aims to...
 Examples of **incorrect** code for this rule:
 
 ```js
-
-// fill me in
-
+// filename: reactComponent.tsx
+import styled
 ```
 
 Examples of **correct** code for this rule:
 
 ```js
-
-// fill me in
-
+// filename: reactComponent.style.tsx
+import styled
 ```
 
 ### Options
